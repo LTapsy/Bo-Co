@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>
+            Bo & Co
+        </h2>
+    </header>
+    <section>
+        <h1>Animal Derby</h1>
+        <ul class="playerContainer">
+            <li class="player">
+                <label for="">
+                    Name:
+                </label>
+                <input type="text">
+                <label for="">
+                    Amount:
+                </label>
+                <input class="amount" onchange="calculate(1)" type="number" id="amount1">
+                <label for="">Bet:</label>
+                <select class="bet"  onchange="calculate(1)"  name="" id="bet1">
+                    <option value="2">Yellow</option>
+                    <option value="3">Blue</option>
+                    <option value="6">Purple</option>
+                    <option value="25">Red</option>
+                </select>
+                <label for="">Win Amount :<span id="1">0</span></label>
+            </li>
+        </ul>
+        <button onclick="addPlayer()">Add Player</button>
+        <button onclick="clearPlayer()" class="clearBtn">Clear Player</button>
+    </section>
+    <footer>
+            <p>Contact me: </p><a href="creator.html">LTapsy</a>
+        </footer>
+</body>
+<script src="script.js"></script>
+</html>
