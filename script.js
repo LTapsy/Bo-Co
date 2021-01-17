@@ -15,9 +15,9 @@ function addPlayer(){
     html += '      <label for="">Bet:</label>';
     html += '      <select onchange="calculate('+numPlayer+')" name="" id="bet'+numPlayer+'">';
     html += '          <option value="2">Yellow</option>';
-    html += '          <option value="3">Blue</option>';
+    html += '          <option value="4">Blue</option>';
     html += '          <option value="6">Purple</option>';
-    html += '          <option value="25">Red</option>';
+    html += '          <option value="9">Red</option>';
     html += '      </select>';
     html += '      <label for="">Win Amount :<span id="'+numPlayer+'">0</span></label>';
     html += '  </li>';
@@ -41,9 +41,9 @@ function clearPlayer(){
     html += '      <label for="">Bet:</label>';
     html += '      <select onchange="calculate('+numPlayer+')" name="" id="bet'+numPlayer+'">';
     html += '          <option value="2">Yellow</option>';
-    html += '          <option value="3">Blue</option>';
+    html += '          <option value="4">Blue</option>';
     html += '          <option value="6">Purple</option>';
-    html += '          <option value="25">Red</option>';
+    html += '          <option value="9">Red</option>';
     html += '      </select>';
     html += '      <label for="">Win Amount :<span id="'+numPlayer+'">0</span></label>';
     html += '  </li>';
